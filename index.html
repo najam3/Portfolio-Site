@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+
+        <div id="home" class="flex">
+                <header class="text-white py-3 p-0">
+                    <div class="container">
+                        <div class="d-flex px-5 justify-content-between align-items-center">
+                            <span class="text-white">
+                               Hard     
+                          <img src="icons/bracket.png" width="20px" alt="">
+                                Coders
+                            </span>
+    
+                            <div class="d-flex align-items-center justify-content-end">
+                                <button class="hire-me  bg-transparent d-flex align-items-center justify-content-center gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                      </svg>
+                                   Github</button>
+                                 <!-- <div class="dropdown-items d-flex align-items-center justify-content-center gap-1">
+                                    <div class="btn-dynamic-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon" viewBox="0 0 16 16">
+                                            <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z"/>
+                                            </svg>
+                                    </div>
+                                    <select class="bg-transparent" name="modes" id="mode">
+                                        <option value="Dark mode" class="dd">Dark mode</option>
+                                        <option selected value="Light mode" class="dd">Light mode</option>
+                                      </select>
+                                 </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            <nav class="navigation shadow-none position-fixed">
+                <ul class="m-0">
+
+                    <li class="active" title="Home"><a  href="#home">
+                        <img src="icons/home.png" width="20px" alt="">
+                            
+                    </a></li>
+                    <li title="Projects"><a href="#projects">
+                        <img src="icons/hackathon.png" width="20px" alt="">
+                    </a></li>
+                    <li title="Contact"><a href="#contact">
+                        <img src="icons/phone.png" width="20px" alt="">
+                    </a></li>
+                    <li title="About"><a href="#about">
+                        <img src="icons/information.png" width="20px" alt="">
+                    </a></li>
+                </ul>
+            </nav>
+        </div>
+        <img class="icon" src="icons/right-arrow.png" width="30px" alt="">
+
+         <div class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 ps-5">
+                    <h1 class="slide-down">I Am Najam, Full-Stack Developer</h1>
+                    <p class="type-writer"></p>
+                    <div class="d-flex align-items-center gap-3 mt-3">
+                        <button class="hire-me">Download CV</button>
+                        <button class="hire-me">
+                          <a href="#projects" class="text-decoration-none text-white">My Work</a>
+                        </button>
+                    </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="./programmer-3606210_1280.png" class="img-fluid w-75" alt="">
+                    </div>
+                </div>
+                </div>
+        </div>
+        
+        <section id="projects" class="projects py-5">
+
+          <div class="container">
+              
+            <h2>Things I have built</h2>
+            <hr>
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row mb-5">
+                 
+                    <div class="col-lg-6">
+                        <img src="images/sss.png" alt="" class="img-fluid mb-3">
+                    </div>
+                  
+                  <div class="col-lg-6">
+                    <h6 class="text-end">Featured project</h6>
+                      <h4 class="text-end">Full Stack Application</h4>
+                    <div class="project-1">    
+                        <div class="project-header">
+                            <p class="fw-bolder">This project is built on MERN, javascript tech stack, it is built for people who want to share their events
+                              on a platfrom where people can view and buy tickets, get information about the event.</p>
+                              <a class="text-white" target="_blank" href="https://github.com/najam3/Event-Frontend">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#71797E" class="bi bi-github" viewBox="0 0 16 16">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                  </svg>
+    
+                              </a>
+                              <a class="text-white" target="_blank" href="https://event-frontend-sigma.vercel.app/">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#71797E" class="bi bi-box-arrow-up-right ms-3" viewBox="0 0 16 16">
+                                  <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                                  <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                                </svg>
+                              </a>
+                            </div>
+                    </div>
+                    <div class="links-to">
+                        
+                    </div>
+                  </div>
+            
+                </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row mb-5">
+              
+                    <div class="col-lg-6">
+                        <img src="images/wordle-project.png" alt="" class="img-fluid shadow mt-3">
+                    </div>
+                  
+                  <div class="col-lg-6">
+                    <h6 class="text-end">Featured project</h6>
+                      <h4 class="text-end">Wordle</h4>
+                    <div class="project-1">    
+                        <div class="project-header">
+                            <p>The Game relies on the Matrix, called a multidimensional Array that serves as a container for the guess the user makes. The functionality is similar to what other board games rely on like tic tac toe. A word is being automatically generated and simple condition checks for the correct letter.</p>
+                            
+                            <a class="text-white" target="_blank" href="https://github.com/najam3/Wordle">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#71797E" class="bi bi-github" viewBox="0 0 16 16">
+                                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                </svg>
+  
+                            </a>
+
+                              <a class="text-white" href="https://najam3.github.io/Wordle/" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#71797E" class="bi bi-box-arrow-up-right ms-3 viewBox="0 0 16 16">
+                                  <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                                  <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                                </svg>
+                              </a>   
+                            </div>
+                    </div>
+                    <div class="links-to">
+                        
+                    </div>
+                  </div>
+            
+                </div>
+                </div>
+                <div class="carousel-item">
+                  
+              <div class="row mb-5">
+              
+                <div class="col-lg-6">
+                    <img src="images/weather-app.png" alt="" class="img-fluid shadow mt-3">
+                </div>
+              
+              <div class="col-lg-6">
+                <h6 class="text-end">Featured project</h6>
+                  <h4 class="text-end">Weather Application</h4>
+                <div class="project-1">    
+                    <div class="project-header">
+                        <p>This is weather application, you can enter name of any country or city and get the weather information with 1 week forecast.</p>
+                        <a class="text-white" target="_blank" href="https://github.com/najam3/my-app">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#71797E" class="bi bi-github" viewBox="0 0 16 16">
+                              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                            </svg>
+
+                        </a>
+                          <a class="text-white" href="https://weather-application-khaki.vercel.app/" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#71797E" class="bi bi-box-arrow-up-right ms-3 viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                              <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                            </svg>
+                          </a>
+                        </div>
+                </div>
+                <div class="links-to">
+                    
+                </div>
+              </div>
+        
+            </div>
+                </div>
+                <div class="carousel-item">
+                  
+              <div class="row mb-5">
+              
+                <div class="col-lg-6">
+                    <img src="images/Vite-React.png" alt="" class="img-fluid shadow mt-3">
+                </div>
+              
+              <div class="col-lg-6">
+                <h6 class="text-end">Featured project</h6>
+                  <h4 class="text-end">Video-Chat Application</h4>
+                <div class="project-1">    
+                    <div class="project-header">
+                        <p>The Application uses native WebRtc technology to connect two peers with the key generated from websockets server.The WebRtc technology is used in many applications including Zoom.</p>
+                        <a class="text-white" target="_blank" href="https://github.com/najam3/Video-Stream-Test">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#71797E" class="bi bi-github" viewBox="0 0 16 16">
+                              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                            </svg>
+
+                        </a>  
+                          <a class="text-white" href="https://video-stream-test.vercel.app/" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#71797E" class="bi bi-box-arrow-up-right ms-3 viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                              <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                            </svg>
+
+                          </a>
+                        </div>
+                </div>
+                <div class="links-to">
+                    
+                </div>
+              </div>
+        
+            </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+
+               
+         
+          </div>
+      </section>
+
+        <section class="skills py-5 ">
+            <div class="container">
+                <h2 class="text-center">Skills Overview</h2>
+                <p class="text-center">I have 1 year of experience with the listed web frameworks & libraries</p>
+                <div class="row mt-5">
+                    <div class="col-lg-4">
+                        <div class="card shadow border-0">
+                            <div class="card-header pt-4 text-center bg-transparent border-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#71797E" class="bi bi-code-square mx-auto" viewBox="0 0 16 16">
+                                    <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                                    <path d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z"/>
+                                  </svg>
+                            <div class="card-title text-center">Frontend</div>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="card-text fw-lighter mb-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0066CC" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                        <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                                      </svg>
+                                    React
+                                </div>
+                                <div class="card-text fw-lighter mb-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0066CC" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                        <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                                      </svg>
+                                    Tailwind
+                                </div>
+                                <div class="card-text fw-lighter mb-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0066CC" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                        <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                                      </svg>
+                                    Material UI
+                                </div>
+                                <div class="card-text fw-lighter mb-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0066CC" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                        <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                                      </svg>
+                                    Bootstrap 5
+                                </div>
+                                <div class="card-text fw-lighter mb-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0066CC" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                        <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                                      </svg>
+                                     Webpack/Gulp/ES6
+                                </div>
+                            </div>
+                        </div>                            
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card shadow border-0">
+                            <div class="card-header pt-4 text-center bg-transparent border-0">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#71797E" class="bi bi-database-check" viewBox="0 0 16 16">
+                                    <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514Z"/>
+                                    <path d="M12.096 6.223A4.92 4.92 0 0 0 13 5.698V7c0 .289-.213.654-.753 1.007a4.493 4.493 0 0 1 1.753.25V4c0-1.007-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1s-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4v9c0 1.007.875 1.755 1.904 2.223C4.978 15.71 6.427 16 8 16c.536 0 1.058-.034 1.555-.097a4.525 4.525 0 0 1-.813-.927C8.5 14.992 8.252 15 8 15c-1.464 0-2.766-.27-3.682-.687C3.356 13.875 3 13.373 3 13v-1.302c.271.202.58.378.904.525C4.978 12.71 6.427 13 8 13h.027a4.552 4.552 0 0 1 0-1H8c-1.464 0-2.766-.27-3.682-.687C3.356 10.875 3 10.373 3 10V8.698c.271.202.58.378.904.525C4.978 9.71 6.427 10 8 10c.262 0 .52-.008.774-.024a4.525 4.525 0 0 1 1.102-1.132C9.298 8.944 8.666 9 8 9c-1.464 0-2.766-.27-3.682-.687C3.356 7.875 3 7.373 3 7V5.698c.271.202.58.378.904.525C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777ZM3 4c0-.374.356-.875 1.318-1.313C5.234 2.271 6.536 2 8 2s2.766.27 3.682.687C12.644 3.125 13 3.627 13 4c0 .374-.356.875-1.318 1.313C10.766 5.729 9.464 6 8 6s-2.766-.27-3.682-.687C3.356 4.875 3 4.373 3 4Z"/>
+                                  </svg>
+                            <div class="card-title text-center">Backend</div>
+
+                            </div>
+                            <div class="card-body">
+                                <div class="card-text fw-lighter mb-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0066CC" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                        <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                                      </svg>
+                                        Node.js
+                                </div>
+                                <div class="card-text fw-lighter mb-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0066CC" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                        <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                                      </svg>
+                                        MongoDb
+                                </div>
+                                <div class="card-text fw-lighter mb-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0066CC" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                        <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                                      </svg>
+                                        SQL
+                                </div>
+                                <div class="card-text fw-lighter mb-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0066CC" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                        <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                                      </svg>
+                                        C#
+                                </div>
+                                <div class="card-text fw-lighter mb-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0066CC  " class="bi bi-check-circle" viewBox="0 0 16 16">
+                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                        <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                                      </svg>
+                                      (SSR) Server-Side Rendering 
+                                </div>
+                            </div>
+                        </div>                            
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card shadow border-0">
+                            <div class="card-header pt-4 text-center bg-transparent border-0 ">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#71797E" class="bi bi-grid-fill" viewBox="0 0 16 16">
+                                        <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3z"/>
+                                      </svg>
+                            <div class="card-title text-center">Others</div>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-text fw-lighter mb-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0066CC" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                        <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                                      </svg>
+                                    Figma
+                                </div>
+                                <div class="card-text fw-lighter mb-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0066CC" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                        <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                                      </svg>
+                                    UX/Wireframing
+                                </div>
+                                <div class="card-text fw-lighter mb-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0066CC" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                        <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                                      </svg>
+                                    SASS
+                                </div>
+                                <div class="card-text fw-lighter mb-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0066CC" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                        <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                                      </svg>
+                                    Framer motion
+                                </div>
+                                <div class="card-text fw-lighter mb-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0066CC" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                        <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                                      </svg>
+                                     Webscraping
+                                </div>
+                            </div>
+                        </div>                            
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+    
+
+        <section id="contact" class="contact-me py-5">
+          <div class="container">
+            <h2 class=" text-center">Get in touch</h2>
+            <p class="mb-5 text-center">Get connected, and let's discuss things.</p>
+            <div class="row">
+              <div class="col-lg-6 mx-auto">
+                <form class="row g-3 border shadow p-3">
+                  <div class="col-md-4">
+                    <label for="validationDefault01" class="form-label">First name</label>
+                    <input type="text" class="form-control" placeholder="First name" id="validationDefault01" required>
+                  </div>
+                  <div class="col-md-4">
+                    <label for="validationDefault02" class="form-label">Last name</label>
+                    <input type="text" class="form-control" placeholder="Last name" id="validationDefault02" required>
+                  </div>
+         
+           
+          
+                  <div class="mb-3">
+                    <label for="validationTextarea" class="form-label">Your Message</label>
+                    <textarea class="form-control" id="validationTextarea" placeholder="Enter your message" required></textarea>
+                    <div class="invalid-feedback">
+                      Please enter a message.
+                    </div>
+                  </div>
+              
+                  <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Send</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <footer class="py-5">
+           <div class="container">
+            <div class="row">
+              <div class="col-lg-12 mb-2 text-center">
+                <span class="text-white">
+                  Hard     
+             <img src="icons/bracket.png" width="20px" alt="">
+                   Coders
+               </span>
+               <!-- <p class="text-white">Full-Stack Developer</p> -->
+              </div>
+              <div class="col-lg-12">
+                <p class="text-center text-white">Full Stack Developer</p>
+              </div>
+              <hr class="text-white">
+              <div class="col-lg-12">
+                <ul class="justify-content-center">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Work</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-12">
+                <p class="text-center">Copyrights 2023 &copy; <b>Hard Coders</b> all rights reserved.</p>
+              </div>
+            </div>
+           </div>
+          </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
